@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fb-bg: #f0f2f5;
+  --fb-card: #ffffff;
+  --fb-primary: #1877f2;
+  --fb-text: #1c1e21;
+  --fb-muted: #65676b;
+  --fb-border: #e4e6eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--fb-bg);
+  color: var(--fb-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
